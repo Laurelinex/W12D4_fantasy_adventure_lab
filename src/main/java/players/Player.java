@@ -1,10 +1,11 @@
 package players;
 
+import behaviours.IDamage;
 import behaviours.ITreasure;
 
 import java.util.ArrayList;
 
-public abstract class Player {
+public abstract class Player implements IDamage {
 
     private String playerName;
     private int healthPoints;
@@ -31,4 +32,9 @@ public abstract class Player {
     public ArrayList<ITreasure> getInventory() {
         return inventory;
     }
+
+    public void loseHealth(int damage) {
+        this.healthPoints -= damage;
+    }
+
 }
