@@ -1,13 +1,19 @@
 package players;
 
+import behaviours.ITreasure;
+
+import java.util.ArrayList;
+
 public abstract class Player {
 
     private String playerName;
     private int healthPoints;
+    private ArrayList<ITreasure> inventory;
 
     public Player(String playerName, int healthPoints) {
         this.playerName = playerName;
         this.healthPoints = healthPoints;
+        this.inventory = new ArrayList<ITreasure>();
     }
 
     public String getPlayerName() {
@@ -22,4 +28,7 @@ public abstract class Player {
         this.healthPoints += value;
     }
 
+    public ArrayList<ITreasure> getInventory() {
+        return inventory;
+    }
 }
