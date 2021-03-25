@@ -2,7 +2,7 @@ package pets;
 
 import behaviours.IDamage;
 import behaviours.IPet;
-import players.SpellCaster;
+import players.spellcasters.SpellCaster;
 
 public abstract class Pet implements IPet, IDamage {
 

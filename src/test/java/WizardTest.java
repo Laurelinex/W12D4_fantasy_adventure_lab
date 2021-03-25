@@ -2,7 +2,7 @@ import enemies.Troll;
 import org.junit.Before;
 import org.junit.Test;
 import pets.Dragon;
-import players.Wizard;
+import players.spellcasters.Wizard;
 import tools.Spell;
 
 import static org.junit.Assert.assertEquals;

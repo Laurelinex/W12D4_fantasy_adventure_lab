@@ -1,9 +1,10 @@
-package players;
+package players.spellcasters;
 
 import behaviours.ICast;
 import behaviours.IPet;
 import enemies.Enemy;
 import pets.Pet;
+import players.Player;
 import tools.Spell;
 
 import java.util.ArrayList;

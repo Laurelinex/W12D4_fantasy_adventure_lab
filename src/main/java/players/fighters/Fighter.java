@@ -1,8 +1,9 @@
-package players;
+package players.fighters;
 
 import behaviours.IFight;
 import behaviours.IWeapon;
 import enemies.Enemy;
+import players.Player;
 import tools.weapons.Club;
 import tools.weapons.Sword;
 

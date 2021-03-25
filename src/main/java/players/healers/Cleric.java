@@ -1,6 +1,7 @@
-package players;
+package players.healers;
 
 import behaviours.IHeal;
+import players.Player;
 import tools.HealingTool;
 
 import java.util.ArrayList;

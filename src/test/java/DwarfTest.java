@@ -2,9 +2,7 @@ import behaviours.IWeapon;
 import enemies.Troll;
 import org.junit.Before;
 import org.junit.Test;
-import players.Cleric;
-import players.Dwarf;
-import tools.HealingTool;
+import players.fighters.Dwarf;
 import tools.weapons.Sword;
 
 import static org.junit.Assert.assertEquals;

@@ -1,6 +1,6 @@
 package behaviours;
 
-import players.SpellCaster;
+import players.spellcasters.SpellCaster;
 
 public interface IPet {
 

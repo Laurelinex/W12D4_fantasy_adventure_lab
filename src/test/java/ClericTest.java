@@ -1,6 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
-import players.Cleric;
+import players.healers.Cleric;
 import tools.HealingTool;
 
 import static org.junit.Assert.assertEquals;
