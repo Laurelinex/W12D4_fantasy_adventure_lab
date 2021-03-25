@@ -37,4 +37,7 @@ public abstract class Player implements IDamage {
         this.healthPoints -= damage;
     }
 
+    public void setHealthPoints(int healthPoints) {
+        this.healthPoints = healthPoints;
+    }
 }
