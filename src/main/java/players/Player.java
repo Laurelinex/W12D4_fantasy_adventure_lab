@@ -17,4 +17,9 @@ public abstract class Player {
     public int getHealthPoints() {
         return healthPoints;
     }
+
+    public void addHealth(int value) {
+        this.healthPoints += value;
+    }
+
 }
